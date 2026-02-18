@@ -1,11 +1,3 @@
-not index command
-
-<img src="https://envs.sh/NZ_.jpg">
-<img src="https://envs.sh/NZj.jpg">
-<img src="https://envs.sh/NZc.jpg">
-<img src="https://envs.sh/NZZ.jpg">
-<img src="https://envs.sh/NZL.jpg">
-
 <details><summary>Deploy To Heroku</summary>
 <br>
 <p>
