@@ -43,7 +43,7 @@ class evamaria(Client):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '29265798'))
+API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '9dd673fa7291fb5a954902ea10fc8cb5')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
@@ -78,7 +78,7 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Kanhaiya:kanhaiya960@cluster0.ljdbg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Kanhaiya")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Hacker_Jr')
 MONGO_URL = os.environ.get('MONGO_URL', "None")
